@@ -1,0 +1,68 @@
+.gallery-year {
+    font-size: 48px;
+	-webkit-text-stroke: 4px #222222;
+}
+
+.gallery-title {
+    font-size: 36px;
+	-webkit-text-stroke: 3px #222222;
+}
+
+.gallery-date {
+    font-size: 24px;
+	-webkit-text-stroke: 2px #222222;
+}
+
+.gallery-modal-background {
+    display: inline-block;
+    position: fixed;
+    background-color: #222222;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    opacity: 75%;
+}
+
+.gallery-body {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.gallery-body .card  {
+    display: inline-block;
+    position: absolute;
+    background-color: #E4E4E4; /* rgb(228, 228, 228) */
+    z-index: 1;
+    top: 0;
+    width: 90%;
+    height: auto;
+}
+
+.gallery-carousel .active {
+    display: inline-block;
+}
+
+.gallery-carousel img{
+    display: none;
+}
+
+.gallery-description {
+    font-size: 14px;
+}
+
+.gallery-pagination {
+    font-size: 24px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease-out;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
